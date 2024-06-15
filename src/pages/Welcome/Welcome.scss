@@ -1,0 +1,90 @@
+@import "../../base";
+
+.welcome-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fff;
+  // position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo{
+    width: 120px;
+    aspect-ratio: 80/41;
+    display: flex;
+    align-items: center;
+
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__item{
+    ul{
+      display: flex;
+      align-items: center;
+      li{
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+/* End Header */
+
+.button--one{
+  cursor: pointer;
+}
+
+.button--two{
+  cursor: pointer;
+}
+// Welcome
+
+.welcome-section{
+  height: calc(100vh - 84.4px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  &__title{
+    font-size: 66px;
+    line-height: 76px;
+    max-width: 634px;
+    color: #C8001A;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__desc{
+    font-size: 22px;
+    line-height: 140%;
+    color: #121212;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  &__image{
+    display: flex;
+
+    & img{
+      width: 100%;
+      align-items: center;
+      border-radius: 20px;
+    }
+  }
+
+}
+
+// End Welcome

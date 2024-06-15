@@ -1,0 +1,44 @@
+@import "../../base";
+.modal{
+
+  font-family: var(--font);
+  padding: 0px 10px 0px;
+
+  &__image{
+    padding: 0;
+    transform: scale(0.5);
+    text-align: center;
+  }
+
+  &__title{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  & label{
+    
+    font-weight: 600;
+  }
+}
+
+.button--login{
+  font-size: 18px;
+  width: 100%;
+  margin-left: 0;
+  font-weight: 600;
+  font-family: var(--font);
+  border: 1px solid #d9d9d9;
+  background: #C8001A;
+  min-height: 44px;
+  padding: 13px 50px;
+  border-radius: 22px;
+  color: white;
+  box-shadow: none!important;
+}
+
+.button--login:hover{
+  background: #C8001A!important;
+  color: #fff;
+  border: 1px solid #C8001A;
+}

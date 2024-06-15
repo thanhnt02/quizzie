@@ -1,0 +1,528 @@
+{
+  "users": [
+    {
+      "fullname": "Nguyễn Trí Thành",
+      "email": "20021581@vnu.edu.vn",
+      "password": "123456789",
+      "token": "QfjUQ15ADzmA5onAO8pP",
+      "id": 1
+    },
+    {
+      "fullname": "Trí Thành",
+      "email": "nguyentrithanh2409@gmail.com",
+      "password": "123456",
+      "token": "Sr2HcczjeLP2epxSuDRA",
+      "id": 2
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "Javascript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của...?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language",
+        "Hi Thanh Model Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Đối với thẻ HTML <p>, ký tự nào được sử dụng để đóng thẻ?",
+      "answers": [
+        "!",
+        "/",
+        "-",
+        ">"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Thẻ HTML nào được sử dụng để tạo danh sách không thứ tự?",
+      "answers": [
+        "<ol>",
+        "<li>",
+        "<ul>",
+        "<dl>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "CSS là viết tắt của...?",
+      "answers": [
+        "Computer Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style Sheets",
+        "Cascading Style Sheets"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Để chèn một đoạn mã CSS vào trang HTML, bạn sử dụng thẻ nào?",
+      "answers": [
+        "<style>",
+        "<css>",
+        "<script>",
+        "<link>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Thẻ HTML nào được sử dụng để tạo liên kết (hyperlink)?",
+      "answers": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Đối với thẻ <img> trong HTML, thuộc tính nào được sử dụng để chỉ định đường dẫn của hình ảnh?",
+      "answers": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Để tạo một đường kẻ ngang trong HTML, bạn sử dụng thẻ nào?",
+      "answers": [
+        "<line>",
+        "<hr>",
+        "<br>",
+        "<rule>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Thẻ HTML nào được sử dụng để tạo tiêu đề lớn nhất?",
+      "answers": [
+        "<h1>",
+        "<heading>",
+        "<header>",
+        "<big>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Trong CSS, thuộc tính nào được sử dụng để thay đổi màu nền của một phần tử?",
+      "answers": [
+        "background-color",
+        "color",
+        "text-color",
+        "bgcolor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topicId": 2,
+      "question": "CSS là viết tắt của...?",
+      "answers": [
+        "Cascading Style Sheet",
+        "Creative Style Sheet",
+        "Computer Style Sheet",
+        "Colorful Style Sheet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 2,
+      "question": "Đặc điểm nào sau đây không phải là tính năng của CSS3?",
+      "answers": [
+        "Hỗ trợ animation",
+        "Hỗ trợ responsive design",
+        "Hỗ trợ các hiệu ứng 3D",
+        "Hỗ trợ định dạng văn bản"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi màu chữ trong CSS?",
+      "answers": [
+        "color",
+        "text-color",
+        "font-color",
+        "foreground-color"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "topicId": 2,
+      "question": "Để định dạng đường nét viền của một phần tử, thuộc tính nào được sử dụng?",
+      "answers": [
+        "border-style",
+        "outline-style",
+        "line-style",
+        "stroke-style"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "topicId": 2,
+      "question": "Để thay đổi độ rộng của một phần tử, thuộc tính nào được sử dụng?",
+      "answers": [
+        "width",
+        "size",
+        "length",
+        "dimension"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "topicId": 2,
+      "question": "Để thay đổi khoảng cách giữa các ký tự trong một phần tử văn bản, thuộc tính nào được sử dụng?",
+      "answers": [
+        "text-spacing",
+        "letter-spacing",
+        "word-spacing",
+        "line-spacing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "topicId": 2,
+      "question": "Phần tử nào được sử dụng để áp dụng hiệu ứng chuyển động trong CSS?",
+      "answers": [
+        "<motion>",
+        "<animate>",
+        "<transition>",
+        "<move>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "topicId": 2,
+      "question": "Để định dạng kích thước của hình ảnh trong CSS, thuộc tính nào được sử dụng?",
+      "answers": [
+        "image-size",
+        "size",
+        "image-dimension",
+        "object-fit"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 19,
+      "topicId": 2,
+      "question": "Câu lệnh nào được sử dụng để thiết lập một đường viền nổi bật xung quanh một phần tử?",
+      "answers": [
+        "border-outline",
+        "outline",
+        "border-shadow",
+        "highlight"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "topicId": 2,
+      "question": "Để áp dụng hiệu ứng mờ cho một phần tử, thuộc tính nào được sử dụng?",
+      "answers": [
+        "blur",
+        "fuzzy",
+        "opacity",
+        "translucent"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình chủ yếu được sử dụng để làm gì?",
+      "answers": [
+        "Thiết kế đồ họa",
+        "Lập trình máy tính",
+        "Phát triển ứng dụng web",
+        "Xây dựng cơ sở dữ liệu"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "topicId": 3,
+      "question": "Cách để khai báo một biến trong JavaScript là gì?",
+      "answers": [
+        "var myVar;",
+        "variable myVar;",
+        "v myVar =;",
+        "declare myVar;"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "topicId": 3,
+      "question": "Câu lệnh 'if' trong JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "Vòng lặp",
+        "Định nghĩa hàm",
+        "Kiểm tra điều kiện",
+        "Gán giá trị"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "topicId": 3,
+      "question": "Callback là một...",
+      "answers": [
+        "Hàm được truyền làm tham số cho một hàm khác",
+        "Biến lưu trữ giá trị callback",
+        "Kiểu dữ liệu trong JavaScript",
+        "Sự kiện khiến ứng dụng bắt đầu chạy"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "topicId": 3,
+      "question": "Prototype trong JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "Định nghĩa một hàm",
+        "Thay đổi giá trị của biến",
+        "Mở rộng tính năng của đối tượng",
+        "Gán giá trị mặc định cho biến"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 26,
+      "topicId": 3,
+      "question": "Cách để tạo một đối tượng trong JavaScript là gì?",
+      "answers": [
+        "object = createObject();",
+        "var obj = {}",
+        "new Object();",
+        "create object obj();"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "topicId": 3,
+      "question": "Phương thức 'map' trong JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "Thay đổi giá trị của mảng",
+        "Kiểm tra điều kiện của từng phần tử trong mảng",
+        "Tạo một mảng mới từ mảng hiện tại",
+        "Gộp các phần tử của mảng thành một chuỗi"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "topicId": 3,
+      "question": "Câu lệnh 'for' trong JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "Định nghĩa hàm",
+        "Tạo vòng lặp",
+        "Kiểm tra điều kiện",
+        "Gán giá trị"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "topicId": 3,
+      "question": "Câu lệnh 'console.log' được sử dụng để làm gì?",
+      "answers": [
+        "Hiển thị thông báo trên trình duyệt",
+        "Ghi dữ liệu vào cơ sở dữ liệu",
+        "Kiểm tra lỗi trong code",
+        "Hiển thị thông báo trên console"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 30,
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình thuộc kiểu gì?",
+      "answers": [
+        "Kiểu động",
+        "Kiểu tĩnh",
+        "Kiểu hỗn hợp",
+        "Kiểu trung gian"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "topicId": 4,
+      "question": "React là thư viện phát triển bởi công ty nào?",
+      "answers": [
+        "Google",
+        "Facebook",
+        "Microsoft",
+        "Apple"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "topicId": 4,
+      "question": "JSX là viết tắt của...",
+      "answers": [
+        "JavaScript XML",
+        "Java Style XML",
+        "JSON XML",
+        "JavaScript Extensible"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "topicId": 4,
+      "question": "React component là gì?",
+      "answers": [
+        "Đoạn mã JavaScript",
+        "Phần tử HTML",
+        "Một phần của giao diện người dùng",
+        "Hàm toàn cục"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 34,
+      "topicId": 4,
+      "question": "State trong React được sử dụng để làm gì?",
+      "answers": [
+        "Lưu trữ dữ liệu tạm thời",
+        "Định nghĩa kiểu dữ liệu",
+        "Quản lý các thành phần con",
+        "Xác định loại phần tử"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "topicId": 4,
+      "question": "React Router là gì?",
+      "answers": [
+        "Thư viện quản lý router cho ứng dụng React",
+        "React component dùng để tạo router",
+        "Công cụ kiểm thử cho ứng dụng React",
+        "Tính năng tự động chuyển đổi giữa các component"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "topicId": 4,
+      "question": "Redux là gì trong ngữ cảnh của React?",
+      "answers": [
+        "Thư viện quản lý trạng thái",
+        "Router cho ứng dụng React",
+        "Ngôn ngữ lập trình hỗ trợ React",
+        "Kiến trúc thiết kế cho React component"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "topicId": 4,
+      "question": "Hook là khái niệm được giới thiệu trong phiên bản React nào?",
+      "answers": [
+        "React 14",
+        "React 15",
+        "React 16",
+        "React 17"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 38,
+      "topicId": 4,
+      "question": "React props là gì?",
+      "answers": [
+        "Phương thức của React component",
+        "Thuộc tính của một đối tượng",
+        "Tham số truyền vào component",
+        "Trạng thái của một component"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "topicId": 4,
+      "question": "Lifecycle method nào được gọi sau khi component đã render?",
+      "answers": [
+        "componentDidMount",
+        "componentWillUnmount",
+        "componentDidUpdate",
+        "componentWillUpdate"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "topicId": 4,
+      "question": "React là một thư viện hoặc framework?",
+      "answers": [
+        "Thư viện",
+        "Framework",
+        "Cả thư viện và framework",
+        "Không phải cả hai"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": {
+    "userId": 1,
+    "topicId": 4,
+    "answer": [
+      {
+        "questionId": 1,
+        "answer": 1
+      }
+    ]
+  }
+}

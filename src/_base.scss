@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --color-primary: #FFCC00;
+  --color-second: #FF589E;
+  --color-text-primary: #1E1E1E;
+  --color-text-second: #777777;
+  --font: 'Raleway', sans-serif;
+}
+
+body{
+  font-family: var(--font);
+}
+
+::selection{
+  color: white;
+  background-color: #C8001A;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: var(--color-text-primary);
+}
+
+a:hover{
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
+
+/* Button */
+.button--one{
+  border: 1px solid;
+  background: white;
+  min-height: 44px;
+  padding: 13px 50px;
+  border-radius: 22px;
+}
+
+.button--one:hover{
+  background: #C8001A;
+  color: #fff;
+}
+
+.button--two{
+  border: 1px solid #C8001A;
+  background: #C8001A;
+  color: white;
+  min-height: 44px;
+  padding: 13px 50px;
+  border-radius: 22px;
+  // background: #F5F5F5
+}
+
+.button--two:hover{
+  border: 1px solid #C8001A;
+  color: #C8001A;
+  background: #fff;
+}
+/* End Button */

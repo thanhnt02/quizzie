@@ -1,0 +1,30 @@
+@import "../../base";
+.modal{
+
+  font-family: var(--font);
+  padding: 0px 10px 0px;
+
+  &__image{
+    padding: 0;
+    transform: scale(0.5);
+    text-align: center;
+  }
+
+  &__title{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  & label{
+    
+    font-weight: 600;
+  }
+}
+
+.button--login{
+  font-size: 18px;
+  width: 100%;
+  font-weight: 600;
+  font-family: var(--font);
+}
