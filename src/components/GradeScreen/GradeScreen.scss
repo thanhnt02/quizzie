@@ -1,0 +1,21 @@
+.answer{
+  
+  &__title{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+  }
+
+  &__tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__final{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+}

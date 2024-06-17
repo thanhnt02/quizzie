@@ -3,7 +3,7 @@ import { Layout, Row, Col } from "antd";
 import Login from "../Login";
 import Register from "../Register";
 import { getCookie } from "../../helpers/cookie";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 const { Content } = Layout;
 
@@ -14,11 +14,10 @@ const style = {
 
 function Welcome() {
   const isLogin = getCookie("token");
-  const navigate = useNavigate();
   return (
     <>
       {isLogin ? (
-        <Navigate to="/dashboard"/>
+        <Navigate to="/home"/>
       ) : (
         <Layout>
           <header className="welcome-header">
@@ -85,7 +84,7 @@ function Welcome() {
         </Layout>
       )}
     </>
-  );
+  )
 }
 
 export default Welcome;

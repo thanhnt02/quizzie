@@ -41,7 +41,8 @@ function Login() {
     else {
       const token = isLogin[0].token;
       setCookie("token", token, 1);
-      navigate("/dashboard");
+      setCookie("email", data.email, 1);
+      navigate("/home");
     }
   };
 

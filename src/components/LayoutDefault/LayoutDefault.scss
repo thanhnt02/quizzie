@@ -1,0 +1,77 @@
+@import "../../base";
+
+.layout-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo{
+    width: 120px;
+    aspect-ratio: 80/41;
+    display: flex;
+    align-items: center;
+
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__item{
+    ul{
+      display: flex;
+      align-items: center;
+      a{
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: 600;
+        padding: 10px;
+        border-radius: 10px;
+        &.active{
+          color: white;
+          background: #C8001A;
+        }
+      }
+    }
+  }
+
+  &__logout{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+      color: white;
+      background: #C8001A;
+    }
+  }
+}
+
+/* End Header */
+
+.button--one{
+  cursor: pointer;
+}
+
+.button--two{
+  cursor: pointer;
+}
+// Welcome
+
+.content{
+  background: #fff;
+}
