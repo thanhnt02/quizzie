@@ -19,7 +19,7 @@
 
 ## Một số hình ảnh của ứng dụng
 
-- Màn hình chào mừng
+- Màn hình chào mừng <br/>
 Người dùng có thể đăng nhập (khi đã có tài khoản) hoặc đăng ký (khi chưa có tài khoản)
 
 <img src="./assets/Màn hình chào mừng.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
