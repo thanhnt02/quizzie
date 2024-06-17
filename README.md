@@ -36,22 +36,22 @@ Người dùng có thể đăng nhập (khi đã có tài khoản) hoặc đăng
 
 <img src="./assets//Màn hình chính.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-- Màn hình chọn chủ đề
+- Màn hình chọn chủ đề<br/>
 Có 4 chủ đề về 4 ngôn ngữ lập trình để làm bài
 
 <img src="./assets//Màn hình chọn chủ đề.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-- Màn hình làm bài kiểm tra
+- Màn hình làm bài kiểm tra<br/>
 Mỗi chủ đề có 10 câu hỏi
 
 <img src="./assets//Màn hình làm bài kiểm tra.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-- Màn hình chấm điểm chi tiết từng bài kiểm tra
+- Màn hình chấm điểm chi tiết từng bài kiểm tra<br/>
 Sau khi làm bài, ứng dụng sẽ lọc ra số câu đúng, sai trên tổng số bao nhiêu câu, từ đó suy ra tỷ lệ đúng
 
 <img src="./assets//Màn hình chấm bài.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-- Màn hình danh sách các bài kiểm tra đã làm
+- Màn hình danh sách các bài kiểm tra đã làm<br/>
 Lịch sử các bài đã làm sẽ được lưu tại màn hình này
 
 <img src="./assets/Màn hình danh sách các bài đã làm.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
