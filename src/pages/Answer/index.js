@@ -1,7 +1,7 @@
 import { Table, Button } from "antd";
 import { Link, Outlet } from "react-router-dom";
 import { DeleteOutlined } from "@ant-design/icons";
-import { getAnswer } from "../../services/answerServices";
+import { deleteAnswer, getAnswer } from "../../services/answerServices";
 import { useEffect, useState } from "react";
 import { getUserId } from "../../services/userServices";
 import { defineTopic } from "../../services/topicServices";
@@ -19,6 +19,11 @@ const columns = [
     key: "name",
   },
   {
+    title: "Completion Time",
+    dataIndex: "completionTime",
+    key: "completionTime",
+  },
+  {
     title: "Action",
     dataIndex: "action",
     key: "action",
@@ -32,6 +37,7 @@ const columns = [
 
 function Answer() {
   const [list, setList] = useState([]);
+  const [reload, setReload] = useState(false);
 
   useEffect(() => {
     const answer = async () => {
@@ -40,16 +46,25 @@ function Answer() {
       setList(result);
     };
     answer();
-  }, []);
+  }, [reload]);
 
   const reversedList = list.slice().reverse();
   var idList = reversedList.length;
+
+  const handleClick = async (id) => {
+    setReload(!reload)
+    const result = await deleteAnswer(id)
+    
+  }
+
+
 
   const data = reversedList.map((item) => {
     return {
       key: item.id,
       id: idList--,
       name: defineTopic(item.topicId),
+      completionTime: item.completionTime,
       action: (
         <Button style={{ background: "#008000" }} type="primary">
           <Link className="link" to={"/answer/" + item.id}>
@@ -57,7 +72,7 @@ function Answer() {
           </Link>
         </Button>
       ),
-      delete: <Button danger icon={<DeleteOutlined />}></Button>,
+      delete: <Button onClick={() => handleClick(item.id)} danger icon={<DeleteOutlined />}></Button>,
     };
   });
 

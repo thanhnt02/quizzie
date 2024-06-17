@@ -14,3 +14,8 @@ export const postAnswer = async (data) => {
   const result = await post('answers', data);
   return result;
 }
+
+export const deleteAnswer = async (id) => {
+  const result = await del(`answers/${id}`)
+  return result;
+}

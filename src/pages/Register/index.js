@@ -43,11 +43,12 @@ function Register() {
     else {
       const token = genToken()
       data.token = token
-      const result = await register(data)
-      if (result) {
+      if (true) {
         success()
         form.resetFields();
       } 
+      const result = await register(data)
+      return result
     }
   }
   const [form] = Form.useForm();
