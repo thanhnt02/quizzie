@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Quizzie - Ứng dụng trả lời câu hỏi trắc nghiệm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Những công nghệ được sử dụng
 
-## Available Scripts
+- ReactJS
+- React Router
+- Json-server
+- Ant Design
+- SASS
 
-In the project directory, you can run:
+## Những chức năng và màn hình chính
 
-### `npm start`
+- Tính năng đăng nhập, đăng ký. (Đăng nhập xong lưu vào cookie một token).
+- Trang danh sách chủ đề luyện tập: HTML, CSS, JS, ReactJS,...
+- Trang làm bài trắc nghiệm theo từng chủ đề, sau khi luyện tập xong sẽ hiển thị kết quả và số câu trả lời đúng, sai, % đúng. Có thêm nút cho luyện tập lại chủ đề đó.
+- Trang danh sách những bài đã luyện tập.
+- Trang chi tiết xem lại kết quả luyện tập của từng chủ đề.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Một số hình ảnh của ứng dụng
 
-### `npm test`
+- Màn hình chào mừng
+Người dùng có thể đăng nhập (khi đã có tài khoản) hoặc đăng ký (khi chưa có tài khoản)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="../assets/Màn hình chào mừng.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-### `npm run build`
+- Màn hình đăng nhập
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="../assets/Màn hình đăng nhập.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Màn hình đăng ký
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="../assets//Màn hình đăng ký.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-### `npm run eject`
+- Màn hình chính
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="../assets//Màn hình chính.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Màn hình chọn chủ đề
+Có 4 chủ đề về 4 ngôn ngữ lập trình để làm bài
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="../assets//Màn hình chọn chủ đề.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Màn hình làm bài kiểm tra
+Mỗi chủ đề có 10 câu hỏi
 
-## Learn More
+<img src="../assets//Màn hình làm bài kiểm tra.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Màn hình chấm điểm chi tiết từng bài kiểm tra
+Sau khi làm bài, ứng dụng sẽ lọc ra số câu đúng, sai trên tổng số bao nhiêu câu, từ đó suy ra tỷ lệ đúng
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="../assets//Màn hình chấm bài.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-### Code Splitting
+- Màn hình danh sách các bài kiểm tra đã làm
+Lịch sử các bài đã làm sẽ được lưu tại màn hình này
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="../assets/Màn hình danh sách các bài đã làm.png" width="100%" style='border-radius: 10px; margin-bottom: 20px;'/>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
